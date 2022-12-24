@@ -5,8 +5,8 @@
     <classes>
       <class name="Testcases.Webpagetest">
         <methods>
+          <include name="veifyDateTestcase"/>
           <include name="setup"/>
-          <include name="veifyDataTestcase"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- Testcases.Webpagetest -->

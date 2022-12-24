@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-25T00:12:10 IST" name="Default suite" finished-at="2022-12-25T00:12:49 IST" duration-ms="38372">
+  <suite started-at="2022-12-25T01:33:25 IST" name="Default suite" finished-at="2022-12-25T01:34:14 IST" duration-ms="48280">
     <groups>
     </groups>
-    <test started-at="2022-12-25T00:12:10 IST" name="Default test" finished-at="2022-12-25T00:12:49 IST" duration-ms="38372">
+    <test started-at="2022-12-25T01:33:25 IST" name="Default test" finished-at="2022-12-25T01:34:14 IST" duration-ms="48280">
       <class name="Testcases.Webpagetest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T00:12:11 IST" name="setup" finished-at="2022-12-25T00:12:19 IST" duration-ms="8403" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T01:33:25 IST" name="setup" finished-at="2022-12-25T01:33:35 IST" duration-ms="9350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyMovieCountryTestCase()[pri:1, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T00:12:19 IST" name="verifyMovieCountryTestCase" finished-at="2022-12-25T00:12:44 IST" duration-ms="24752" status="PASS">
+        <test-method signature="verifyMovieCountryTestCase()[pri:1, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T01:33:35 IST" name="verifyMovieCountryTestCase" finished-at="2022-12-25T01:34:04 IST" duration-ms="29485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMovieCountryTestCase -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T00:12:44 IST" name="closeBrowser" finished-at="2022-12-25T00:12:44 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T01:34:04 IST" name="closeBrowser" finished-at="2022-12-25T01:34:04 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T00:12:44 IST" name="setup" finished-at="2022-12-25T00:12:49 IST" duration-ms="4928" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T01:34:04 IST" name="setup" finished-at="2022-12-25T01:34:13 IST" duration-ms="9191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="veifyDataTestcase()[pri:2, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T00:12:49 IST" name="veifyDataTestcase" finished-at="2022-12-25T00:12:49 IST" duration-ms="61" status="FAIL">
+        <test-method signature="veifyDateTestcase()[pri:2, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T01:34:13 IST" name="veifyDateTestcase" finished-at="2022-12-25T01:34:13 IST" duration-ms="36" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='plainlist'][4]"}
@@ -39,8 +39,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'NITIN', ip: '192.168.43.85', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.18 (fde5ebf4e16d..., userDataDir: C:\Users\nitin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ba06faa3b26831210b8025b540e7a032
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.18 (fde5ebf4e16d..., userDataDir: C:\Users\nitin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab90e73232161bae824e2574c78bc247
 *** Element info: {Using=xpath, value=//div[@class='plainlist'][4]}]]>
             </message>
             <full-stacktrace>
@@ -50,8 +50,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'NITIN', ip: '192.168.43.85', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.18 (fde5ebf4e16d..., userDataDir: C:\Users\nitin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ba06faa3b26831210b8025b540e7a032
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.18 (fde5ebf4e16d..., userDataDir: C:\Users\nitin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab90e73232161bae824e2574c78bc247
 *** Element info: {Using=xpath, value=//div[@class='plainlist'][4]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -71,7 +71,7 @@ at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(Def
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.getText(Unknown Source)
 at Pages.Webpageclass.verifymovieDateWiki(Webpageclass.java:29)
-at Testcases.Webpagetest.veifyDataTestcase(Webpagetest.java:26)
+at Testcases.Webpagetest.veifyDateTestcase(Webpagetest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,12 +105,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- veifyDataTestcase -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T00:12:49 IST" name="closeBrowser" finished-at="2022-12-25T00:12:49 IST" duration-ms="147" status="PASS">
+        </test-method> <!-- veifyDateTestcase -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.Webpagetest@169e6180]" started-at="2022-12-25T01:34:13 IST" name="closeBrowser" finished-at="2022-12-25T01:34:14 IST" duration-ms="153" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=veifyDataTestcase status=FAILURE method=Webpagetest.veifyDataTestcase()[pri:2, instance:Testcases.Webpagetest@169e6180] output={null}]]]>
+                <![CDATA[[TestResult name=veifyDateTestcase status=FAILURE method=Webpagetest.veifyDateTestcase()[pri:2, instance:Testcases.Webpagetest@169e6180] output={null}]]]>
               </value>
             </param>
           </params>
